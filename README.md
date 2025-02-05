@@ -1,4 +1,4 @@
-### RateFlowAI
+# RateFlowAI
 
 # USD to TSH Exchange Rate Prediction Using AI
 
