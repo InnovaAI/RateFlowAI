@@ -95,6 +95,6 @@ We welcome contributions to make this project better! If you have an idea or imp
 
 ## 📃 **License**
 
-This project is licensed under the MIT License - see the [LICENSE]() file for details.
+This project is licensed under the MIT License - see the [MIT LICENSE](LICENSE) file for details.
 
 ## 👥 **Contact**
