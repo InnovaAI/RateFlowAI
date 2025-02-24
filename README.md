@@ -35,7 +35,7 @@ This project is designed to evolve into a more sophisticated tool for predicting
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/username/usd-tsh-exchange-prediction.git
+   git clone https://github.com/InnovaAI/RateFlowAI.git
    ```
    
 2. **Install dependencies**:
@@ -48,8 +48,8 @@ This project is designed to evolve into a more sophisticated tool for predicting
    Use the provided scripts to train and predict exchange rates.
    Example:
    ```bash
-   python train_model.py
-   python predict_rate.py
+   python trainModel.py
+   python predictRate.py
    ```
 
 4. **Customize**:
@@ -67,8 +67,8 @@ If you have access to a real-time exchange rate API, you can easily integrate th
 You can clone this repository and install the necessary libraries by following these steps:
 
 ```bash
-git clone https://github.com/your-username/usd-tsh-exchange-prediction.git
-cd usd-tsh-exchange-prediction
+git clone https://github.com/InnovaAI/RateFlowAI.git
+cd usd-tsh-exchangePrediction
 pip install -r requirements.txt
 ```
 
@@ -76,7 +76,7 @@ pip install -r requirements.txt
 
 After installing, you can start the prediction script with:
 ```bash
-python predict_rate.py
+python predictRate.py
 ```
 
 This will show the predicted USD to TSH exchange rate based on the trained model.
