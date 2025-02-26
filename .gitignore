@@ -1,0 +1,37 @@
+#Python & Virtual Environment
+__pycache__/
+*.py[cod]
+*.sqlite3
+venv/
+env/
+*.egg-info/
+
+#Django & Database Files
+db.sqlite3
+*.log
+*.pot
+*.pyc
+
+#Ignore Secret Configs & Credentials
+.env
+settings_local.py
+
+#Ignore Static & Media Files (If using collectstatic)
+staticfiles/
+media/
+*.bmp
+*.png
+*.jpg
+*.jpeg
+
+#Ignore Compiled Files & Caches
+*.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+node_modules/
+
+#Migrations (Optional, if you want to exclude them)
+*/migrations/*.py
+*/migrations/*.pyc
