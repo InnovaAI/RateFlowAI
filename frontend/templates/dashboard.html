@@ -1,0 +1,31 @@
+{% extends "base.html" %}  <!-- Inherits from base.html -->
+{% load static %}
+
+{% block content %}
+    <h1>USD to TSH Exchange Rate Forecast</h1>
+    
+    <!-- Currency Selector (for future extensibility) -->
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <select class="form-select" id="baseCurrency">
+                <option value="USD">US Dollar (USD)</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <select class="form-select" id="targetCurrency">
+                <option value="TZS">Tanzanian Shilling (TZS)</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Chart Container -->
+    <div class="card">
+        <div class="card-body">
+            <canvas id="forecastChart"></canvas>
+        </div>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script src="{% static 'js/app.js' %}"></script>  <!-- Load custom JavaScript -->
+{% endblock %}
