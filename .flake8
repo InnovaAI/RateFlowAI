@@ -1,6 +1,6 @@
 [flake8]
 max-line-length = 200
-ignore = E203, W503, W292
+ignore = E203, W503, W292, F401
 # Enforce one exactly blank line between function
 [pycodestyle]
 blank-lines-before-function = 1
