@@ -20,16 +20,12 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install black flake8 autopep8
+          pip install black flake8
 
       - name: Run Black
         run: |
           black .
-
-      - name: Auto-fix Code with Autopep8
-        run: |
-          autopep8 --in-place --aggressive --aggressive -r .
-
+          
       - name: Run Flake8 with Custom Config
         run: |
           flake8 --config=.flake8
