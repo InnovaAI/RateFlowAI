@@ -25,7 +25,6 @@ jobs:
       - name: Run Black
         run: |
           black .
-          
       - name: Run Flake8 with Custom Config
         run: |
           flake8 --config=.flake8
